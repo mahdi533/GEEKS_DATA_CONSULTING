@@ -28,8 +28,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginComponent } from './login/login.component';
-import { AddSondageComponent } from './add-sondage/add-sondage.component';
-import { DetailSondageComponent } from './detail-sondage/detail-sondage.component';
+
 
 
 
@@ -65,8 +64,7 @@ import { DetailSondageComponent } from './detail-sondage/detail-sondage.componen
     AdminLayoutComponent,
     LoginComponent,
 RegisterComponent,
-AddSondageComponent,
-DetailSondageComponent,
+
 
 
   ],

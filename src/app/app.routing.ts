@@ -21,15 +21,13 @@ const routes: Routes =[
     path: '',
     redirectTo: 'login',
     pathMatch: 'full',
-    canActivate: [AuthGuard]
   }, {
     path: '',
     component: AdminLayoutComponent,
     children: [{
       path: '',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
-    }],
-    canActivate: [AuthGuard]
+    }],  
   }
 ];
 

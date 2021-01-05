@@ -17,7 +17,7 @@ import {MatPaginatorModule } from '@angular/material/paginator';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SondageComponent } from 'app/sondage/sondage.component';
-import { MySondageComponent } from 'app/my-sondage/my-sondage.component';
+
 
 @NgModule({
   imports: [
@@ -41,7 +41,7 @@ import { MySondageComponent } from 'app/my-sondage/my-sondage.component';
 
   ],
   declarations: [
-    MySondageComponent,
+    
     SondageComponent
   ]
 })
